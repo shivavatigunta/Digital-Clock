@@ -80,6 +80,10 @@ $(document).ready(function(){
 		    seconds = "0" + seconds;
 		}
 
+		if (minutes < 10) {
+			minutes = "0" + minutes;
+		}
+
 		if (hours > 12) {
 			hours = hours -12;
 			meridiem = "PM";
